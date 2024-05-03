@@ -1,0 +1,178 @@
+@font-face {
+    font-family: logofont;
+    src: url(assets/logo\ font.otf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(assets/Rosewell.otf);
+}
+
+@font-face {
+    font-family: subtitle;
+    src: url(assets/Typo_Round_Light_Demo.otf);
+}
+
+@font-face {
+    font-family: navtext;
+    src: url(assets/Typo_Round_Light_Demo.otf);
+}
+
+* {
+    text-decoration: none;
+}
+
+.navbar {
+    background: crimson;
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    font-family: logofont;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    margin-right: 25px;
+    font-family: navtext;
+}
+
+.content {
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    font-family: navtext;
+}
+
+.submit {
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    font-family: navtext;
+}
+
+button a {
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+a:after {
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 100px;
+    left: 0;
+    bottom: 825px;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+a:hover:after {
+    width: 100%;
+}
+
+body {
+    background-image: url(assets/bg.png);
+}
+
+.title {
+    font-family: logofont;
+    text-align: center;
+    font-size: 100px;
+    color: #ff3c78;
+}
+
+hr {
+    color: #ff3c78;
+}
+
+#scipedia {
+    font-family: logofont;
+    color: #ff3c78;
+}
+
+#h1 {
+    font-family: regular;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#subtitle {
+    font-family: subtitle;
+    text-align: center;
+    font-size: 50px;
+    color: #ff3c78;
+}
+
+.regular {
+    font-family: regular;
+    font-size: 30px;
+    text-align: center;
+    color: #000000b6
+}
+
+#textback {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    transition: 1s;
+}
+
+#textback:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+#readmore{
+    color: black;
+    font-size: 25px;
+}
+
+body {
+    height: 100vh;
+    cursor: url(assets/cursor.png),auto;
+}
+a{
+    cursor: url(assets/cursor2.png),auto;
+}
+#textbacktitle {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    transition: 1s;
+}
